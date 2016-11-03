@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'node-mtach' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json asgnmt3@1.0.0 No description
+6 warn package.json asgnmt3@1.0.0 No repository field.
+7 warn package.json asgnmt3@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'node-mtach', null ]
+10 verbose cache add name=undefined spec="node-mtach" args=["node-mtach",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'node-mtach',
+11 verbose parsed url   path: 'node-mtach',
+11 verbose parsed url   href: 'node-mtach' }
+12 silly lockFile ef94b50d-node-mtach node-mtach
+13 verbose lock node-mtach /home/ubuntu/.npm/ef94b50d-node-mtach.lock
+14 silly lockFile ef94b50d-node-mtach node-mtach
+15 silly lockFile ef94b50d-node-mtach node-mtach
+16 verbose addNamed [ 'node-mtach', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile c4bc499b-node-mtach node-mtach@
+19 verbose lock node-mtach@ /home/ubuntu/.npm/c4bc499b-node-mtach.lock
+20 silly addNameRange { name: 'node-mtach', range: '*', hasData: false }
+21 verbose request where is /node-mtach
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id 4bdb4fb68f6eb873
+24 verbose url raw /node-mtach
+25 verbose url resolving [ 'https://registry.npmjs.org/', './node-mtach' ]
+26 verbose url resolved https://registry.npmjs.org/node-mtach
+27 verbose request where is https://registry.npmjs.org/node-mtach
+28 info trying registry request attempt 1 at 08:14:36
+29 http GET https://registry.npmjs.org/node-mtach
+30 http 404 https://registry.npmjs.org/node-mtach
+31 silly registry.get cb [ 404,
+31 silly registry.get   { 'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=0',
+31 silly registry.get     'content-length': '2',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     date: 'Thu, 03 Nov 2016 08:14:36 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-sea1923-SEA',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1478160876.399256,VS0,VE330',
+31 silly registry.get     vary: 'Accept-Encoding' } ]
+32 silly lockFile c4bc499b-node-mtach node-mtach@
+33 silly lockFile c4bc499b-node-mtach node-mtach@
+34 error 404 Not Found
+34 error 404
+34 error 404 'node-mtach' is not in the npm registry.
+34 error 404 You should bug the author to publish it
+34 error 404 It was specified as a dependency of 'asgnmt3'
+34 error 404
+34 error 404 Maybe try 'npm search mtach'
+34 error 404
+34 error 404 Note that you can also install from a
+34 error 404 tarball, folder, or http url, or git url.
+35 error System Linux 3.13.0-92-generic
+36 error command "/usr/bin/node" "/usr/bin/npm" "install" "node-mtach"
+37 error cwd /home/ubuntu/asgnmt3
+38 error node -v v0.10.37
+39 error npm -v 1.4.28
+40 error code E404
+41 verbose exit [ 1, true ]
